@@ -20,7 +20,7 @@ const MainNavigation = () => {
   return (
     <Stack.Navigator
       screenOptions={{header: () => null, headerShown: false}}
-      initialRouteName={Routes.Home}>
+      initialRouteName={'Drawer'}>
       <Stack.Screen name={'Drawer'} component={MainMenuNavigation} />
       <Stack.Screen name={Routes.Profile} component={Profile} />
     </Stack.Navigator>
